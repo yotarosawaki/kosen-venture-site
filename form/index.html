@@ -1,8 +1,101 @@
 <!doctype html>
-<html lang="ja"><head><meta charset="utf-8">
-<title>移動しました | 高専ベンチャー株式会社</title>
-<meta name="robots" content="noindex">
-<meta http-equiv="refresh" content="0; url=https://docs.google.com/forms/d/e/1FAIpQLSdSbMDcLc-uEAJSaD6IXyZrG1Jk47lo3JOuelbV8lTe4OQvCw/viewform">
-<link rel="canonical" href="https://docs.google.com/forms/d/e/1FAIpQLSdSbMDcLc-uEAJSaD6IXyZrG1Jk47lo3JOuelbV8lTe4OQvCw/viewform">
-</head><body><p>ページが移動しました。<a href="https://docs.google.com/forms/d/e/1FAIpQLSdSbMDcLc-uEAJSaD6IXyZrG1Jk47lo3JOuelbV8lTe4OQvCw/viewform">こちら</a>をご覧ください。</p>
-<script>location.replace("https://docs.google.com/forms/d/e/1FAIpQLSdSbMDcLc-uEAJSaD6IXyZrG1Jk47lo3JOuelbV8lTe4OQvCw/viewform");</script></body></html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>お問い合わせ | 高専ベンチャー株式会社</title>
+<meta name="description" content="高専ベンチャー株式会社へのお問い合わせはこちらから。">
+<link rel="canonical" href="https://kosen-venture.com/form/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="icon" href="../assets/icon-32.jpg" sizes="32x32">
+<link rel="icon" href="../assets/icon-192.jpg" sizes="192x192">
+<link rel="apple-touch-icon" href="../assets/icon-180.jpg">
+<meta property="og:title" content="お問い合わせ | 高専ベンチャー株式会社">
+<meta property="og:image" content="https://kosen-venture.com/assets/icon-512.jpg">
+<link rel="stylesheet" href="../assets/site.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C21HQ26RTJ"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-C21HQ26RTJ');</script>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-in">
+    <a class="brand" href="../"><img src="../assets/logo.png" alt="KOSEN VENTURE 高専ベンチャー株式会社" width="404" height="86"></a>
+    <nav class="gnav"><ul>
+  <li><a href="../history/">高専ベンチャーとは</a></li>
+  <li><a href="../service/">事業内容</a></li>
+  <li><a href="../works/">制作実績</a></li>
+  <li><a href="../intern/">インターン募集</a></li>
+  <li><a href="../company/">企業情報</a></li>
+    </ul></nav>
+    <a class="btn btn-contact" href="../form/">お問い合わせ</a>
+  </div>
+</header>
+<main><div class="wrap">
+
+<article class="box">
+  <h1 class="page-title">お問い合わせ</h1>
+  <p>事業のご相談、インターンへの応募、取材のご依頼などは、下記のフォームからお送りください。内容を確認のうえ、担当者よりご連絡いたします。</p>
+  <form id="contact-form" class="contact-form" data-endpoint="https://script.google.com/macros/s/AKfycbyEL4_OG0pDwB0G8Q9v6AZLijypaIM6tuAJwNKRikwb-3nSeYAa2sb39u-9djPXnT55wQ/exec" novalidate>
+    <div class="field">
+      <label for="f-company">会社名・学校名 <span class="req">必須</span></label>
+      <input id="f-company" name="company" type="text" autocomplete="organization" maxlength="100" required>
+    </div>
+    <div class="field">
+      <label for="f-name">お名前 <span class="req">必須</span></label>
+      <input id="f-name" name="name" type="text" autocomplete="name" maxlength="60" required>
+    </div>
+    <div class="field">
+      <label for="f-email">メールアドレス <span class="req">必須</span></label>
+      <input id="f-email" name="email" type="email" autocomplete="email" maxlength="120" required>
+    </div>
+    <fieldset class="field">
+      <legend>お問い合わせ種別 <span class="req">必須</span></legend>
+      <div class="choices">
+        <label class="choice"><input type="radio" name="type" value="AI・DX支援" data-key="ai" required> AI・DX支援</label>
+        <label class="choice"><input type="radio" name="type" value="地方創生支援" data-key="local" required> 地方創生支援</label>
+        <label class="choice"><input type="radio" name="type" value="海外事業支援" data-key="global" required> 海外事業支援</label>
+        <label class="choice"><input type="radio" name="type" value="高専・高専生支援" data-key="kosen" required> 高専・高専生支援</label>
+        <label class="choice"><input type="radio" name="type" value="インターンへの応募" data-key="intern" required> インターンへの応募</label>
+        <label class="choice"><input type="radio" name="type" value="その他" data-key="other" required> その他</label>
+      </div>
+    </fieldset>
+    <div class="field">
+      <label for="f-message">お問い合わせ内容</label>
+      <textarea id="f-message" name="message" rows="7" maxlength="4000"></textarea>
+    </div>
+    <!-- 人には見えない入力欄。ここに何か入っていたら自動送信とみなす -->
+    <div class="hp" aria-hidden="true">
+      <label for="f-website">ウェブサイト</label>
+      <input id="f-website" name="website" type="text" tabindex="-1" autocomplete="off">
+    </div>
+    <p class="form-error" role="alert" hidden></p>
+    <p class="center"><button class="btn btn-submit" type="submit">送信する</button></p>
+  </form>
+  <div class="form-done" hidden>
+    <h2>送信が完了しました</h2>
+    <p>お問い合わせいただき、ありがとうございます。内容を確認のうえ、担当者よりご連絡いたします。</p>
+    <p><a class="btn btn-line" href="../">トップへ戻る</a></p>
+  </div>
+</article>
+<script src="../assets/contact.js" defer></script>
+
+</div></main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-id"><img src="../assets/icon-192.jpg" alt="殻を破れ 高専生" width="56" height="56"><div><b>高専ベンチャー株式会社</b><br>殻を破れ！高専生！<br>〒104-0061 東京都中央区銀座8-18-3</div></div>
+    <ul>
+      <li><a href="../history/">高専ベンチャーとは</a></li>
+      <li><a href="../service/">事業内容</a></li>
+      <li><a href="../works/">制作実績</a></li>
+      <li><a href="../intern/">インターン募集</a></li>
+      <li><a href="../company/">企業情報</a></li>
+      <li><a href="../form/">お問い合わせ</a></li>
+      <li><a href="../news/">お知らせ・記事</a></li>
+    </ul>
+  </div>
+  <p class="copy">© Kosen Venture, Inc.</p>
+</footer>
+</body>
+</html>
